@@ -23,7 +23,7 @@ also the book is Natural Language Processing with Transformers by Lewis Tunstall
 Token: "cat"
 Embedding: [0.21, -0.14, 0.88,…] (a vector of size, say, 768
 
-# Positional Encoding.
+# 4. Positional Encoding.
 ==> A positional embedding is a vector that represents the position of a token in the sequence.We add (or concatenate) this vector to the token embedding.
 In a transformer-based LLM, the self-attention mechanism looks at all tokens at once — it has no inherent sense of order.
 But in language, word order matters!
