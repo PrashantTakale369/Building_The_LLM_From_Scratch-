@@ -21,7 +21,7 @@ also the book is Natural Language Processing with Transformers by Lewis Tunstall
 # 3. Token Embedding.
 ==> But neural networks don’t understand text — they work with numbers.So we need to convert each token (word, subword, character) into a vector of numbers. This vector is called a token embedding.like 
 Token: "cat"
-Embedding: [0.21, -0.14, 0.88,…] (a vector of size, say, 768
+Embedding: [0.21, -0.14, 0.88,…] (a vector of size like 512 Ddimensions)
 
 # 4. Positional Encoding.
 ==> A positional embedding is a vector that represents the position of a token in the sequence.We add (or concatenate) this vector to the token embedding.
